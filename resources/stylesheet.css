@@ -13,8 +13,6 @@ header {
   background-position: center;
   background-size: cover;
   height: 30rem;
-  position: absolute;
-  width: 100%;
 }
 
 nav {
@@ -27,6 +25,7 @@ nav span {
 
 .container {
   margin: 0 auto;
+  padding-top: 1rem;
   width: 960px;
 }
 
@@ -35,7 +34,7 @@ nav span {
   background-color: cadetblue;
   display: flex;
   justify-content: space-between;
-  margin: 1rem auto 0 auto;
+  margin: 0 auto;
   font-weight: lighter;
   width: 100%;
 }
@@ -68,4 +67,64 @@ nav span {
 
 .headline h1 {
   padding: 1.5rem 5rem;
+}
+
+/* services section */
+
+.services {
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  margin: 2rem 0;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  width: 5rem;
+  text-align: center;
+}
+
+.one,
+.two {
+  padding-right: 6rem;
+}
+
+#paper {
+  width: 3.5rem;
+}
+
+#ruler,
+#truck {
+  width: 5rem;
+}
+
+/* further info */
+h2 {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  padding: .5rem 0 .5rem 1.25rem;
+  width: 10rem;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+.further-info {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  display: inline-block;
+  width: 35%;
+}
+
+.philosophy {
+  margin-right: 5%;
 }
