@@ -128,3 +128,20 @@ p {
 .philosophy {
   margin-right: 5%;
 }
+
+/* footer */
+.footer {
+  background-color: azure;
+  margin-top: 4rem;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0 4rem 4rem;
+}
+
+.copyright img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
