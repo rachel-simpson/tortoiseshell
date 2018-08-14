@@ -54,6 +54,10 @@ nav span {
   padding: 0 1rem 0 2rem;
 }
 
+#menu {
+  display: none;
+}
+
 /* headline */
 .headline {
   background-color: white;
@@ -152,6 +156,7 @@ p {
   }
 
   .container {
+    padding-top: 0;
     width: 100%;
   }
 
@@ -162,5 +167,92 @@ p {
 
   .headline h1 {
     padding: .75rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  header {
+    height: 17rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .headline {
+    font-size: 1rem;
+    margin: 9rem 0 0 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .headline h1 {
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+
+  .menu-item {
+    display: none;
+  }
+
+  #menu {
+    display: inline-block;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+    height: 24rem;
+    margin: 3.77rem 0;
+  }
+
+  .service {
+    font-size: .77rem;
+  }
+
+  .one,
+  .two {
+    padding-bottom: 1.54rem;
+    padding-right: 0;
+  }
+
+  .further-info {
+    flex-direction: column;
+  }
+
+  h2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .philosophy {
+    margin-right: 5%;
+  }
+
+  p {
+    font-size: .77rem;
+    margin: 1rem auto 4rem auto;
+    width: 90%;
+  }
+
+  .footer {
+    margin-top: 0;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  .copyright {
+    padding: 4rem;
+  }
+
+  .copyright img {
+    margin: 0 auto;
+    padding-right: 0;
   }
 }
