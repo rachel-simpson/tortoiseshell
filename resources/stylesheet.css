@@ -145,3 +145,22 @@ p {
   height: 1.5rem;
   padding-right: 1rem;
 }
+
+@media only screen and (max-width: 980px) {
+  header {
+    height: 22rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .headline {
+    font-size: 1.33rem;
+    margin: 5rem 2rem 0 0;
+  }
+
+  .headline h1 {
+    padding: .75rem 4rem;
+  }
+}
